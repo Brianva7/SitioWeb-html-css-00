@@ -1,0 +1,49 @@
+@import "globals";
+@import "index";
+@import "contacto";
+@import "salon";
+@import "catering";
+@import "galeria";
+@media  screen and (max-width: 640px){
+    body{
+        flex-flow: column nowrap;
+        font-size: 1rem;
+        min-height: 100vh;
+        .navBar{
+            flex-direction: column;
+        }
+        .principal{
+            flex-direction: column;
+            margin: 15px 0;
+            .title{
+                font-size: 1.5rem;
+            }
+            .form{
+                padding: 0;
+            }        
+        }
+        .ftrGaleria{
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}     
+@media screen and (max-width: 992px){
+    body{
+        flex-flow: column wrap;
+        min-height: 100vh;
+        .title{
+            flex: 100%;
+        }
+        .principal{
+            flex: 100%;
+            margin: 25px;
+            .containerA{
+                flex: 100%;
+            }
+            .containerB, .containerC, .containerD{
+                flex: 50%;
+            }
+        }
+    }
+}

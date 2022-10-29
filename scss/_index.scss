@@ -1,0 +1,85 @@
+body{
+    background-image: url(../img/bodybkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: space-between;
+    flex-flow: row wrap;
+    header{
+        width: 100%;
+        .hdrLogo{
+            width: 100%;
+            .banner{
+                width: 100%;
+            }
+        }
+    }
+    .navBox{
+        padding: 10px;
+        width: 100%;
+        .navbar{
+            background-color: $darkbg;
+            border-radius: $boxrad;
+            .section{
+                font-family: 'Parisienne', cursive;
+                width: 150px;
+                text-align: center;
+                margin: 5px 0;
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.200);
+                    border-radius: $boxrad;
+                    transition: 0.7s;
+                }
+            }            
+        }         
+    }
+    .principal{
+        background-color: $darkbg;
+        border: solid 1px $border;
+        border-radius: $boxrad;
+        justify-content: space-between;
+        padding: 15px;
+        margin: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        .title{
+            font-family: 'Parisienne', cursive;
+            flex: 100%;
+            text-align: center;       
+        }         
+        .containerA{
+            flex: 25%;
+            padding: 15px;
+            text-align: center;
+            margin: auto;            
+        }
+    }
+    footer{
+        background-color: $darkbg;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        padding: 15px 15px 0 15px;
+        .ftrForm{
+            flex: 100%;
+            border: solid 2px $border;
+            border-radius: $boxrad;
+            .ftrList{
+                display: flex;
+                border-radius: 25px;
+                margin: 0;
+                .list-item{
+                    display: flex;
+                    align-items: center;
+                    margin: 5px auto;
+                    .icon{
+                        max-width:35px;
+                    }
+                }
+            }
+        }
+    }
+}

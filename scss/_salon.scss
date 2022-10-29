@@ -1,0 +1,11 @@
+.principal{
+    .containerB{
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+        .altText{
+            color: $alt;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.principal{
+    .map{
+        flex: 100%;
+        padding: 25px;
+    }
+    .contactList{
+        flex: 50%;
+        padding: 25px;
+        .list{
+            border: solid 1px;
+            border-radius: 25px;
+            padding: 15px;
+            height: 100%;
+            .listLine{
+                text-align: center;
+            }
+        }
+        .firstWord{
+            color: $alt;
+            font-size: 3rem;
+            font-weight: bold;
+            font-style: oblique;
+        }
+        .textLink{
+            color: $alt;
+        }
+    }
+    .form{
+        flex: 50%;
+        padding: 25px;
+        fieldset{
+            text-align: center;
+            width: 100%;
+            border: solid 1px;
+            border-radius: 25px;
+            padding: 0 15px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            .label{
+                padding: 5px;
+            }
+            p{
+                padding: 5px;
+            }
+            .textInput{
+                width: 100%;
+                height: 150px;
+            }
+            .btn{
+                padding: 5px;
+                margin: 5px 0;
+                background-color: $darkbg;
+                color: white;
+                border-radius: 25px;
+                border: solid 1px rgba(255, 255, 255, 0.7) ;
+                width: 100px;
+                text-align: center;
+                &:hover{
+                    color: $alt;
+                }
+            }
+        }
+    }
+}

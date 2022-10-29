@@ -1,0 +1,18 @@
+.principal{
+    .containerC{
+        flex: 30%;
+        padding: 15px;
+        margin: auto;
+        .cateringImg{
+            width: 100%;
+            border-radius: $boxrad;
+        }
+    }
+    .containerD{
+        flex: 70%;
+        padding: 15px;
+        h2{
+            text-align: center;
+        }
+    }
+}
