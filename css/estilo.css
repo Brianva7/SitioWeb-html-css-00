@@ -253,6 +253,10 @@ body footer .ftrForm .ftrList .list-item .icon {
   border-radius: 25px;
 }
 
+.galeryContainer {
+  margin: auto auto;
+}
+
 @media screen and (max-width: 640px) {
   body {
     flex-flow: column nowrap;
