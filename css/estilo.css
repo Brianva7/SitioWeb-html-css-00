@@ -116,7 +116,7 @@ body .principal {
   flex-flow: row wrap;
 }
 body .principal .title {
-  font-family: "Parisienne", cursive;
+  font-family: "Roboto", sans-serif;
   flex: 100%;
   text-align: center;
 }
