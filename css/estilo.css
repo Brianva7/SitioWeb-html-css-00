@@ -30,6 +30,7 @@ hr {
 
 .navbar-brand {
   color: orange;
+  font-family: "Parisienne", cursive;
 }
 .navbar-brand:hover {
   color: orange;
